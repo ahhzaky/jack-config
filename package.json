@@ -1,0 +1,21 @@
+{
+  "name": "jack-config",
+  "version": "1.0.0",
+  "description": "A cli to help generate a now.sh configuration file.",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "Ahmad Zaky",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
